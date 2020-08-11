@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+        <ImageView
+            android:id="@+id/empty_deal_img"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/undraw_best_place_r685"/>
+
+        <TextView
+            android:id="@+id/empty_deal_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/no_travel_deals_dere"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+            android:textColor="@android:color/black"/>
+
+    <Button
+        android:id="@+id/empty_deal_refresh"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/swipe_down_to_retry"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Body2"
+        android:textColor="@android:color/darker_gray"
+        android:drawableStart="@drawable/ic_refresh_black_24dp"
+        android:drawableLeft="@drawable/ic_refresh_black_24dp"
+        android:drawableTint="@android:color/darker_gray"
+        android:onClick="refresh"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="30dp"
+        />
+</LinearLayout>

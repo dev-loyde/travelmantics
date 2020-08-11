@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Travelmantics</string>
+    <string name="action_save">SAVE</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_list">Travelmantics</string>
+    <string name="deal_description">Deal Description</string>
+    <string name="deal_price">Deal Price</string>
+    <string name="tools_deal_title">Deal Title</string>
+    <string name="tools_deal_description">TextView</string>
+    <string name="tools_deal_price">600</string>
+    <string name="new_travel_deal_menu">New Travel Deal</string>
+
+    <string name="fui_progress_dialog_signing_up">Creating your shiny new account...</string>
+    <string name="swipe_down_to_retry">Tap to retry</string>
+    <string name="no_travel_deals_dere">No Connection Available</string>
+
+</resources>
